@@ -1,0 +1,100 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+title {
+  background-color: red;
+  color: white;
+}
+
+header > h1 {
+  margin: 0px;
+  padding: 30px 130px 30px;
+  background-color: #D4193C;
+  color: white;
+  text-align: left; 
+}
+
+h2.heading {
+  padding: 0px 10px 25px 10px;
+}
+
+main > section {
+  padding: 20px 130px 50px 130px;
+  margin: 0px auto;
+}
+
+main > section:not(:last-child) {
+  border-bottom: 2px dotted #D4193C;
+}
+
+article p {
+  padding: 10px;
+}
+
+.link {
+  color: crimson;
+}
+
+blockquote {
+  padding: 30px 15px;
+  border-left: 5px solid #D4193C;
+  background-color: #3DBCCC;
+  color: white;
+}
+
+.wrapper-books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.book-link {
+  padding: 20px 0px;
+  box-sizing: border-box;
+}
+
+.book-link > a {
+  font-size: 1.5em;
+}
+
+.imag:hover {
+  transition-duration: 0.5s;
+  transform: scale(1.05);
+}
+
+#lang_list > ul {
+  padding: 0px 0px 0px 25px;
+  list-style-type: square;
+  color: #D4193C;
+}
+
+ol {
+  margin: 5px;
+  padding: 0px 0px 0px 25px;
+  line-height: 25px;
+  color: black;
+}
+
+footer {
+  padding: 15px;
+  position: relative;
+  background-color: #D4193C;
+}
+
+footer >a > img {
+  margin: 0px;
+  padding: 20px 130px 20px;  
+}
+
+footer > p {
+  display: inline-block;
+  margin: 0px;
+  padding: 20px 130px 50px 130px;
+  position: absolute;
+  right: 0px;
+  color: white;
+}
