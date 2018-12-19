@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DETALL</title>
+    <link href="CSS/style.css" rel="stylesheet" type="text/css" media="screen">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  </head>
+  <body>
+     <header>
+      <div class="container">
+        <h1>LLSOC</h1>
+        <nav>
+          <a href="index.html">INICI</a>
+          <a href="resultats.html">CERCA LLIBRES</a>
+        </nav>
+        
+        <div class="wrap-icon">
+          <a href="cistella.html" class="icon-link fas fa-shopping-cart"></a>
+          <a href="#" class="icon-link fas fa-user-alt"></a>
+        </div>
+      </div>
+    </header>
+    <main id="detall">
+      <div class="container">
+        <img class="detall_pic" src="PICS/senseportadap.jpg" alt="Les banyes del croissant" height="500" width="400">
+        <div class="description">
+            <h2 class="detall_subtitle">Les banyes del croissant</h2>
+            <p class="detall_subtitle_p">Antonia Canyelles</p>
+            <p></p>
+            <p></p>
+            <p id="not_available"></p>
+        </div>
+         
+              <form action="#" method="post" class="detall_form">
+                <fieldset >
+                <legend>
+                  <div class="toggle" id="button">
+                    <input type="radio" id="ebook" name="Escull_format" value="Ebook">
+                    <label for="ebook"><p id="price">5€</p><p>Disponible</p></label>
+                  </div>
+                </legend>
+                  </fieldset>
+              </form>
+               <div class="button_wrapper">
+              <div class="cistella_buttons">
+                <div id="quantity">
+                  <input type="button" value="-" class="minus button is-form" id="minus">
+                  <input type="number" step="1" min="1" name="quantity" value="1" id="number">
+                  <input type="button" value="+" class="plus button is-form" id="add">
+                </div>
+              <button class="detall_button" type="button" value="CISTELLA" id="cistella">CISTELLA</button>
+              <button class="detall_button" type="button" value="RESERVAR" id="reservar" disabled>RESERVAR</button>
+          </div>
+       </div>
+      
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <a href="http://www.uoc.edu" title="UOC"><img src="PICS/logo-uoc.png" alt="UOC"></a>
+        <p class="author">Chia Ling Ho</p>
+      </div>
+    </footer>
+  </body>
+  <script src="JS/detall.js"></script>
+</html>

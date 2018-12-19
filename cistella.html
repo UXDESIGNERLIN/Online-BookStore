@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CISTELLA</title>
+    <link href="CSS/style.css" rel="stylesheet" type="text/css" media="screen">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>LLSOC</h1>
+        <nav>
+          <a href="index.html">INICI</a>
+          <a href="resultats.html">CERCAR LLIBRES</a>
+        </nav>
+        
+      </div>
+    </header>
+    <main>
+      <section id="cistella">
+        <div class="container">
+          <h2 class="cistella_subtitle">Cistella de la compra</h2>
+          <table class="table_cistella">
+            <caption>llibres a la teva cistella</caption>
+            <thead>
+              <tr>
+                <th scope="col" id="x"></th>
+                <th scope="col" id="llibre">Llibre</th>
+                <th scope="col" id="preu">Preu</th>
+                <th scope="col" id="qt">Qt</th>
+                <th scope="col" id="total">Total</th>
+              </tr>
+            </thead>
+            <tbody > 
+              <tr id="inventory_template" class="hide">
+                <td headers="x">x</td>
+                <td headers="llibre"></td>
+                <td headers="preu"></td>
+                <td headers="qt"></td>
+                <td headers="total"></td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th colspan="4" scope="row">Total</th>
+                <td id="final_total"></td>
+              </tr>
+            </tfoot>
+          </table>
+          <div class="table_buttons">
+            <button class= "actualitza" type="submit" value="actualitza cistella">ACTUALITZA CISTELLA</button>
+            <button class="buy" type="submit" value="comprar">COMPRAR</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <a href="http://www.uoc.edu" title="UOC"><img src="PICS/logo-uoc.png" alt="UOC"></a>
+        <p class="author">Chia Ling Ho</p>
+      </div>
+    </footer>
+  </body>
+  <script src="JS/cistella_page.js"></script>
+</html>
